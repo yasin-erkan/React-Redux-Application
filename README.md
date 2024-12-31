@@ -1,9 +1,28 @@
-# React + Vite
+# React Application (React && Redeux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a product management system built using React. The application allows users to add, update, list, and sort products.
 
-Currently, two official plugins are available:
+## Features
+- **Add and Update Products**: Users can add product names, prices, and images or update existing products.
+- **List Products**: All products can be listed and sorted by price.
+- **Search**: Products can be searched by name.
+- **Modal**: A modal window is used to add or update products.
+- **Redux**: The application is built with React-Redux for state management.
+- 
+###Technologies
+React: For building the user interface.
+React Router: For page navigation.
+Redux Toolkit: For state management.
+Tailwind CSS: For styling.
+React Icons: For application icons.
+Vite: The build tool and development server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# React-Redux-Application
+## Usage
+Add a product: Click the "Add Product" button in the top menu. Then, enter the product name, price, and image, and click "Create Product".
+Update a product: Select "Update" on an existing product to modify its details.
+Search: Use the search bar to filter products by name.
+Sort products: You can sort products by price in ascending or descending order.
+Contributing
+To contribute to this project:
+
+
